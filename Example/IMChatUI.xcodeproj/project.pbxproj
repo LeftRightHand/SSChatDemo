@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C384E3B9C69A48C854BA0EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C384E3B9C69A48C854BA0EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		24F64D9D442B5C478F54E6BC /* Pods_IMChatUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMChatUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C01DB50231D12F54997A6B6 /* Pods-IMChatUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMChatUI_Example.release.xcconfig"; path = "Target Support Files/Pods-IMChatUI_Example/Pods-IMChatUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* IMChatUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMChatUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +61,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75699FA1983E793D62817808 /* Pods-IMChatUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMChatUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-IMChatUI_Example/Pods-IMChatUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		811996AB22CDE19B00AFE4B4 /* IMChatUI_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IMChatUI_Example.entitlements; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89FF7A88FAA4A3551593A90D /* IMChatUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IMChatUI.podspec; path = ../IMChatUI.podspec; sourceTree = "<group>"; };
+		89FF7A88FAA4A3551593A90D /* IMChatUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IMChatUI.podspec; path = ../IMChatUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C4750A41A1C15BA6F5586C88 /* Pods_IMChatUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMChatUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52C21E545C85A2A2AB22E99 /* Pods-IMChatUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMChatUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-IMChatUI_Tests/Pods-IMChatUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EAB77D0D2BD8F8B9C09C0CB5 /* Pods-IMChatUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMChatUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-IMChatUI_Tests/Pods-IMChatUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EDDF714722F9D51C3EF4C9F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDDF714722F9D51C3EF4C9F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +104,13 @@
 				EAB77D0D2BD8F8B9C09C0CB5 /* Pods-IMChatUI_Tests.debug.xcconfig */,
 				D52C21E545C85A2A2AB22E99 /* Pods-IMChatUI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				811996AB22CDE19B00AFE4B4 /* IMChatUI_Example.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for IMChatUI */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -249,6 +250,17 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = man;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = VSXAR47Q7B;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +271,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -521,6 +534,8 @@
 			baseConfigurationReference = 75699FA1983E793D62817808 /* Pods-IMChatUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IMChatUI_Example.entitlements;
+				DEVELOPMENT_TEAM = VSXAR47Q7B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMChatUI/IMChatUI-Prefix.pch";
 				INFOPLIST_FILE = "IMChatUI/IMChatUI-Info.plist";
@@ -537,6 +552,8 @@
 			baseConfigurationReference = 2C01DB50231D12F54997A6B6 /* Pods-IMChatUI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IMChatUI_Example.entitlements;
+				DEVELOPMENT_TEAM = VSXAR47Q7B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMChatUI/IMChatUI-Prefix.pch";
 				INFOPLIST_FILE = "IMChatUI/IMChatUI-Info.plist";

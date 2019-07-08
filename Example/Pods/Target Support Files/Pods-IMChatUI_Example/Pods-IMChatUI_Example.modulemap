@@ -1,0 +1,6 @@
+framework module Pods_IMChatUI_Example {
+  umbrella header "Pods-IMChatUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
