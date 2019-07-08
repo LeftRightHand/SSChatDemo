@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - IMChatUI (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - IMChatUI (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  IMChatUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  IMChatUI: 1a33ff57ef2b59817618573496f639d4646b178d
+
+PODFILE CHECKSUM: 2cddad2a33ad1261e74a0713b335fe8ceda4fb2c
+
+COCOAPODS: 1.6.1
