@@ -1,0 +1,6 @@
+framework module IMChatUI {
+  umbrella header "IMChatUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
