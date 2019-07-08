@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058B693DD709F9C3744CE6925350437C /* IMChatUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3620C6992EF8D25BC722F8D80A9D35D0 /* IMChatUI-dummy.m */; };
+		0D85C1E4EFB7C7F931902C4D6CB868AE /* NOCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8ABBFC3FA5258F4696B923D4D07665 /* NOCChatViewController.m */; };
+		0EE130954298D3DD1E3C14BC447AA86B /* NOCMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F498F6CC01E319CE2018F49F3BE621 /* NOCMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38674572D375B1BBDADD35CB786ECAD3 /* NOCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DCE229E0F0B18FF85D786EA1EB64C /* NOCMessage.m */; };
+		410873C18BC4B023C488382F91826459 /* NOCChatContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3B19BC53D8ABF5E2D12792D73F013 /* NOCChatContainerView.m */; };
+		46751B5983AF32F269E33F0C786F71C6 /* Pods-DemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B7CC3F2FACC090134E73E1416098E /* Pods-DemoTests-dummy.m */; };
+		5460AF8640A9387D9AA620AC5F89080B /* NOCChatInputPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FB21A2C53F0F2648F93DD31182FA20 /* NOCChatInputPanel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		570FF4406DA676AA8A82F7AD5434173E /* NOCChatItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4E0D7600660B7959D0EE9421E79E98 /* NOCChatItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DA735761407379BFBF929DC366B0A3D /* NOCChatContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 789447FE2D3EF48E6A14731A3D449B7B /* NOCChatContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80C1CD574648B6B75CB5B7445A136A19 /* NOCChatItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F859BADF975900FEB1743CCDB96F9A /* NOCChatItemCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		854699F2E7C328EE5260C6B16D01F391 /* NOCImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE855C395DB09380D5446090B1028DF2 /* NOCImageMessage.m */; };
+		8616668315046A286343F44C818FE698 /* NOCChatCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 812B38A834DC593092F176C25C056362 /* NOCChatCollectionViewLayout.m */; };
+		889416495163984C6BCFA4CD83FF7D4A /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC659FA563D4F8100776F86A8D4672E /* Pods-Demo-dummy.m */; };
+		A40B0F93ECA94973151C6FA5FF9890B7 /* NOCChatInputPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C805A72EC6C197998C735DF70A44B4 /* NOCChatInputPanel.m */; };
+		A89D30692F0E090069CC095BEF305A5C /* NoChat.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAEB2BCB835D94DAEF4999F37C1B57F /* NoChat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B78EFADF3CA7D1F066D61F2A4A14B29F /* NOCChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9ECAABC4813F1002CD3901287E08A9 /* NOCChatViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B918D66BEA4503455576035EC545E148 /* NOCChatItemCellLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6F9294FE104C506D1428C796B97892 /* NOCChatItemCellLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C65365584033F2495F84A426DCE73CB1 /* NOCChatCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF585CF244312C9D6FC2C4ACA568603 /* NOCChatCollectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAA104CFE41E1208FE8974C994C3B0CC /* NOCChatCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B01F8D8E8FFFCA296559376FAA7EC34 /* NOCChatCollectionView.m */; };
+		CAE2334134CE0637074E8DF24786886B /* NOCChatItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7979DEB176EBB0549E0A0EE48C46348A /* NOCChatItemCell.m */; };
+		DEA2673C8E723DD397AFD6620B538186 /* NOCChatCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A935D897EFA7FE97B409CD7EDF40DB6 /* NOCChatCollectionViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8ECCA91543EEA45E2C35F99D2B17077 /* Pods-DemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A047CFC2551A9EB271B99AB3AFB3385 /* Pods-DemoUITests-dummy.m */; };
+		F36E9BD407276766EA7835C61E4EA189 /* NOCImageMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D91D8D2E0E474887D7671CB7A1743B /* NOCImageMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		029B3C722A85B3BACE1FAD14AE2F61FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE2201C968E326E37399693E6AEFD2F;
+			remoteInfo = "Pods-Demo";
+		};
+		9FCF137A2292058885673AAF64C8A467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE2201C968E326E37399693E6AEFD2F;
+			remoteInfo = "Pods-Demo";
+		};
+		CE93075D3CC087BD5E2AEA11C31539A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2763597112742C20E6E7859B81F11D;
+			remoteInfo = IMChatUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013BEF2E745AC5ADE86629CEA67A9E98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0743B9CD6EC0A7A9AFA1249A5BC4A469 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		0AEBE9D8945A90131A42D450DD09C68D /* libPods-DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DemoUITests.a"; path = "libPods-DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC659FA563D4F8100776F86A8D4672E /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		11D966D54DFD071FFC1945DF8C702536 /* IMChatUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IMChatUI.xcconfig; sourceTree = "<group>"; };
+		1B01F8D8E8FFFCA296559376FAA7EC34 /* NOCChatCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatCollectionView.m; path = IMChatUI/Classes/NOCChatCollectionView.m; sourceTree = "<group>"; };
+		1B7263650C3D172F46CB9ABEAE8C5262 /* Pods-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E5845052BA8BC682B569DBE7B14742A /* Pods-DemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26757B7C89EDDF3FFF90BA7B8B9AC201 /* Pods-DemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E9ECAABC4813F1002CD3901287E08A9 /* NOCChatViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatViewController.h; path = IMChatUI/Classes/NOCChatViewController.h; sourceTree = "<group>"; };
+		32F498F6CC01E319CE2018F49F3BE621 /* NOCMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCMessage.h; path = IMChatUI/Classes/NOCMessage.h; sourceTree = "<group>"; };
+		33D91D8D2E0E474887D7671CB7A1743B /* NOCImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCImageMessage.h; path = IMChatUI/Classes/NOCImageMessage.h; sourceTree = "<group>"; };
+		34C805A72EC6C197998C735DF70A44B4 /* NOCChatInputPanel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatInputPanel.m; path = IMChatUI/Classes/NOCChatInputPanel.m; sourceTree = "<group>"; };
+		3620C6992EF8D25BC722F8D80A9D35D0 /* IMChatUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IMChatUI-dummy.m"; sourceTree = "<group>"; };
+		3A6A0E5CE3C63BF9977FE64C17803AA8 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DED459E649C1CC089994F73DD9A66AD /* IMChatUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IMChatUI-prefix.pch"; sourceTree = "<group>"; };
+		3E61975DA9DA843575DEEA035620EE3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4029E7A83C207D9B5C2AD9E2AE1F8397 /* Pods-DemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41CF10E6B4AEF0E29E58D981A1CEDB54 /* Pods-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4672447E31D2E19BB54CD1A51B87C5B2 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49F859BADF975900FEB1743CCDB96F9A /* NOCChatItemCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItemCell.h; path = IMChatUI/Classes/NOCChatItemCell.h; sourceTree = "<group>"; };
+		4A6F9294FE104C506D1428C796B97892 /* NOCChatItemCellLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItemCellLayout.h; path = IMChatUI/Classes/NOCChatItemCellLayout.h; sourceTree = "<group>"; };
+		4F4E0D7600660B7959D0EE9421E79E98 /* NOCChatItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatItem.h; path = IMChatUI/Classes/NOCChatItem.h; sourceTree = "<group>"; };
+		6DB155E0C9EC104D73058FE15863E7AF /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7175875157C843B32E0A5B1398F6FA02 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Demo.a"; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		789447FE2D3EF48E6A14731A3D449B7B /* NOCChatContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatContainerView.h; path = IMChatUI/Classes/NOCChatContainerView.h; sourceTree = "<group>"; };
+		7979DEB176EBB0549E0A0EE48C46348A /* NOCChatItemCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatItemCell.m; path = IMChatUI/Classes/NOCChatItemCell.m; sourceTree = "<group>"; };
+		7A047CFC2551A9EB271B99AB3AFB3385 /* Pods-DemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoUITests-dummy.m"; sourceTree = "<group>"; };
+		7A935D897EFA7FE97B409CD7EDF40DB6 /* NOCChatCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatCollectionViewLayout.h; path = IMChatUI/Classes/NOCChatCollectionViewLayout.h; sourceTree = "<group>"; };
+		812B38A834DC593092F176C25C056362 /* NOCChatCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatCollectionViewLayout.m; path = IMChatUI/Classes/NOCChatCollectionViewLayout.m; sourceTree = "<group>"; };
+		8611A5384BAA1F5E4457CC0B6D033E24 /* Pods-DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		97FB21A2C53F0F2648F93DD31182FA20 /* NOCChatInputPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatInputPanel.h; path = IMChatUI/Classes/NOCChatInputPanel.h; sourceTree = "<group>"; };
+		9C5DCE229E0F0B18FF85D786EA1EB64C /* NOCMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCMessage.m; path = IMChatUI/Classes/NOCMessage.m; sourceTree = "<group>"; };
+		9CF3B19BC53D8ABF5E2D12792D73F013 /* NOCChatContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatContainerView.m; path = IMChatUI/Classes/NOCChatContainerView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3EC711AD55337DB733C8E662B865B83 /* libIMChatUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIMChatUI.a; path = libIMChatUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2323FE2135135C82FF4683D754F4A1 /* libPods-DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DemoTests.a"; path = "libPods-DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE855C395DB09380D5446090B1028DF2 /* NOCImageMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCImageMessage.m; path = IMChatUI/Classes/NOCImageMessage.m; sourceTree = "<group>"; };
+		B84025306CDA99FDF23EF69A113A4CFB /* IMChatUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IMChatUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEF585CF244312C9D6FC2C4ACA568603 /* NOCChatCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOCChatCollectionView.h; path = IMChatUI/Classes/NOCChatCollectionView.h; sourceTree = "<group>"; };
+		C43F529199726ED9F1508259014DF331 /* Pods-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C88AF06D74B7A0E82D9A4275BA1232D0 /* Pods-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD8ABBFC3FA5258F4696B923D4D07665 /* NOCChatViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOCChatViewController.m; path = IMChatUI/Classes/NOCChatViewController.m; sourceTree = "<group>"; };
+		EDAEB2BCB835D94DAEF4999F37C1B57F /* NoChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoChat.h; path = IMChatUI/Classes/NoChat.h; sourceTree = "<group>"; };
+		EF3B7CC3F2FACC090134E73E1416098E /* Pods-DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59ED01D0580568DD47910CB2BF5F19EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22B134B8B00FAB22D3B21E777D10175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E0A20CD84A301A4ECE1A74F891525A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45D8CC950AD7D8AA97457B3940E1E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223E8FA4DC5BBE4CD0CBC8A274D7786E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B84025306CDA99FDF23EF69A113A4CFB /* IMChatUI.podspec */,
+				013BEF2E745AC5ADE86629CEA67A9E98 /* LICENSE */,
+				3E61975DA9DA843575DEEA035620EE3C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6418736B2D8E485F5C5ADF311323B752 /* Pods-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4029E7A83C207D9B5C2AD9E2AE1F8397 /* Pods-DemoUITests-acknowledgements.markdown */,
+				1E5845052BA8BC682B569DBE7B14742A /* Pods-DemoUITests-acknowledgements.plist */,
+				7A047CFC2551A9EB271B99AB3AFB3385 /* Pods-DemoUITests-dummy.m */,
+				41CF10E6B4AEF0E29E58D981A1CEDB54 /* Pods-DemoUITests.debug.xcconfig */,
+				C43F529199726ED9F1508259014DF331 /* Pods-DemoUITests.release.xcconfig */,
+			);
+			name = "Pods-DemoUITests";
+			path = "Target Support Files/Pods-DemoUITests";
+			sourceTree = "<group>";
+		};
+		64711C20F58844B851A3E4524FFC42CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D966D54DFD071FFC1945DF8C702536 /* IMChatUI.xcconfig */,
+				3620C6992EF8D25BC722F8D80A9D35D0 /* IMChatUI-dummy.m */,
+				3DED459E649C1CC089994F73DD9A66AD /* IMChatUI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Demo/Pods/Target Support Files/IMChatUI";
+			sourceTree = "<group>";
+		};
+		65D85C09E6632FFC5B8CFA2ABA9E20E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC711AD55337DB733C8E662B865B83 /* libIMChatUI.a */,
+				7175875157C843B32E0A5B1398F6FA02 /* libPods-Demo.a */,
+				AA2323FE2135135C82FF4683D754F4A1 /* libPods-DemoTests.a */,
+				0AEBE9D8945A90131A42D450DD09C68D /* libPods-DemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68A9FAF1E915556B781FEAA2009E03E2 /* Pods-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				26757B7C89EDDF3FFF90BA7B8B9AC201 /* Pods-DemoTests-acknowledgements.markdown */,
+				8611A5384BAA1F5E4457CC0B6D033E24 /* Pods-DemoTests-acknowledgements.plist */,
+				EF3B7CC3F2FACC090134E73E1416098E /* Pods-DemoTests-dummy.m */,
+				C88AF06D74B7A0E82D9A4275BA1232D0 /* Pods-DemoTests.debug.xcconfig */,
+				1B7263650C3D172F46CB9ABEAE8C5262 /* Pods-DemoTests.release.xcconfig */,
+			);
+			name = "Pods-DemoTests";
+			path = "Target Support Files/Pods-DemoTests";
+			sourceTree = "<group>";
+		};
+		6900D661E27C441D65F3F3F95F6CF86A /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4672447E31D2E19BB54CD1A51B87C5B2 /* Pods-Demo-acknowledgements.markdown */,
+				3A6A0E5CE3C63BF9977FE64C17803AA8 /* Pods-Demo-acknowledgements.plist */,
+				0FC659FA563D4F8100776F86A8D4672E /* Pods-Demo-dummy.m */,
+				0743B9CD6EC0A7A9AFA1249A5BC4A469 /* Pods-Demo.debug.xcconfig */,
+				6DB155E0C9EC104D73058FE15863E7AF /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+		6F7EE67C4FDED374E8523C87350AE1E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6900D661E27C441D65F3F3F95F6CF86A /* Pods-Demo */,
+				68A9FAF1E915556B781FEAA2009E03E2 /* Pods-DemoTests */,
+				6418736B2D8E485F5C5ADF311323B752 /* Pods-DemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB872874A30192FC0AFDD40AB8DF6A96 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCB46488A4EB572111B59A88B5529977 /* IMChatUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CB872874A30192FC0AFDD40AB8DF6A96 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				65D85C09E6632FFC5B8CFA2ABA9E20E3 /* Products */,
+				6F7EE67C4FDED374E8523C87350AE1E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCB46488A4EB572111B59A88B5529977 /* IMChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				BEF585CF244312C9D6FC2C4ACA568603 /* NOCChatCollectionView.h */,
+				1B01F8D8E8FFFCA296559376FAA7EC34 /* NOCChatCollectionView.m */,
+				7A935D897EFA7FE97B409CD7EDF40DB6 /* NOCChatCollectionViewLayout.h */,
+				812B38A834DC593092F176C25C056362 /* NOCChatCollectionViewLayout.m */,
+				789447FE2D3EF48E6A14731A3D449B7B /* NOCChatContainerView.h */,
+				9CF3B19BC53D8ABF5E2D12792D73F013 /* NOCChatContainerView.m */,
+				97FB21A2C53F0F2648F93DD31182FA20 /* NOCChatInputPanel.h */,
+				34C805A72EC6C197998C735DF70A44B4 /* NOCChatInputPanel.m */,
+				4F4E0D7600660B7959D0EE9421E79E98 /* NOCChatItem.h */,
+				49F859BADF975900FEB1743CCDB96F9A /* NOCChatItemCell.h */,
+				7979DEB176EBB0549E0A0EE48C46348A /* NOCChatItemCell.m */,
+				4A6F9294FE104C506D1428C796B97892 /* NOCChatItemCellLayout.h */,
+				2E9ECAABC4813F1002CD3901287E08A9 /* NOCChatViewController.h */,
+				DD8ABBFC3FA5258F4696B923D4D07665 /* NOCChatViewController.m */,
+				EDAEB2BCB835D94DAEF4999F37C1B57F /* NoChat.h */,
+				33D91D8D2E0E474887D7671CB7A1743B /* NOCImageMessage.h */,
+				AE855C395DB09380D5446090B1028DF2 /* NOCImageMessage.m */,
+				32F498F6CC01E319CE2018F49F3BE621 /* NOCMessage.h */,
+				9C5DCE229E0F0B18FF85D786EA1EB64C /* NOCMessage.m */,
+				223E8FA4DC5BBE4CD0CBC8A274D7786E /* Pod */,
+				64711C20F58844B851A3E4524FFC42CB /* Support Files */,
+			);
+			name = IMChatUI;
+			path = ../../IMChatUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		378D493E8016CEEA0FD3546A75A4E791 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65365584033F2495F84A426DCE73CB1 /* NOCChatCollectionView.h in Headers */,
+				DEA2673C8E723DD397AFD6620B538186 /* NOCChatCollectionViewLayout.h in Headers */,
+				7DA735761407379BFBF929DC366B0A3D /* NOCChatContainerView.h in Headers */,
+				5460AF8640A9387D9AA620AC5F89080B /* NOCChatInputPanel.h in Headers */,
+				570FF4406DA676AA8A82F7AD5434173E /* NOCChatItem.h in Headers */,
+				80C1CD574648B6B75CB5B7445A136A19 /* NOCChatItemCell.h in Headers */,
+				B918D66BEA4503455576035EC545E148 /* NOCChatItemCellLayout.h in Headers */,
+				B78EFADF3CA7D1F066D61F2A4A14B29F /* NOCChatViewController.h in Headers */,
+				A89D30692F0E090069CC095BEF305A5C /* NoChat.h in Headers */,
+				F36E9BD407276766EA7835C61E4EA189 /* NOCImageMessage.h in Headers */,
+				0EE130954298D3DD1E3C14BC447AA86B /* NOCMessage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B77464555EA73D6C6E8DA4CB6D83D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65313764F5850D0138FBB848C0A1429C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C400A4798F9571644635860AB97AC6D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D2763597112742C20E6E7859B81F11D /* IMChatUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6459488343A99220CEC52E0AD845E2 /* Build configuration list for PBXNativeTarget "IMChatUI" */;
+			buildPhases = (
+				378D493E8016CEEA0FD3546A75A4E791 /* Headers */,
+				9EA1079D15DEBF6BAFEFE4ABD7C4FFA8 /* Sources */,
+				C22B134B8B00FAB22D3B21E777D10175 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMChatUI;
+			productName = IMChatUI;
+			productReference = A3EC711AD55337DB733C8E662B865B83 /* libIMChatUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8003796695E106074F17F10E676073E1 /* Pods-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7280A9BEA1E99E984DD98E57956199 /* Build configuration list for PBXNativeTarget "Pods-DemoUITests" */;
+			buildPhases = (
+				390B77464555EA73D6C6E8DA4CB6D83D /* Headers */,
+				7076EC208696E31A97476E1153405297 /* Sources */,
+				59ED01D0580568DD47910CB2BF5F19EC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E03E51256D664CD09F2A8872C88EFB76 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoUITests";
+			productName = "Pods-DemoUITests";
+			productReference = 0AEBE9D8945A90131A42D450DD09C68D /* libPods-DemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9EE2201C968E326E37399693E6AEFD2F /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44368C2D2EE1A03F26BE2D256B05C3B /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				C400A4798F9571644635860AB97AC6D7 /* Headers */,
+				BE722C4180C1A8395ACA6A5C1BF6C444 /* Sources */,
+				F45D8CC950AD7D8AA97457B3940E1E23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				927F21D08E0548ABD4E4C73B2EFC54DA /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = 7175875157C843B32E0A5B1398F6FA02 /* libPods-Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E69F85E9A8698CD6A0FC341F2E41BED6 /* Pods-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818E9C9D80A1D34E0C46399BD1786693 /* Build configuration list for PBXNativeTarget "Pods-DemoTests" */;
+			buildPhases = (
+				65313764F5850D0138FBB848C0A1429C /* Headers */,
+				E50014CC3D45A567069C3F4D38D73AC6 /* Sources */,
+				E0E0A20CD84A301A4ECE1A74F891525A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497E077A74397C8FB0487DD340110238 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoTests";
+			productName = "Pods-DemoTests";
+			productReference = AA2323FE2135135C82FF4683D754F4A1 /* libPods-DemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 65D85C09E6632FFC5B8CFA2ABA9E20E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2763597112742C20E6E7859B81F11D /* IMChatUI */,
+				9EE2201C968E326E37399693E6AEFD2F /* Pods-Demo */,
+				E69F85E9A8698CD6A0FC341F2E41BED6 /* Pods-DemoTests */,
+				8003796695E106074F17F10E676073E1 /* Pods-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7076EC208696E31A97476E1153405297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ECCA91543EEA45E2C35F99D2B17077 /* Pods-DemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA1079D15DEBF6BAFEFE4ABD7C4FFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058B693DD709F9C3744CE6925350437C /* IMChatUI-dummy.m in Sources */,
+				CAA104CFE41E1208FE8974C994C3B0CC /* NOCChatCollectionView.m in Sources */,
+				8616668315046A286343F44C818FE698 /* NOCChatCollectionViewLayout.m in Sources */,
+				410873C18BC4B023C488382F91826459 /* NOCChatContainerView.m in Sources */,
+				A40B0F93ECA94973151C6FA5FF9890B7 /* NOCChatInputPanel.m in Sources */,
+				CAE2334134CE0637074E8DF24786886B /* NOCChatItemCell.m in Sources */,
+				0D85C1E4EFB7C7F931902C4D6CB868AE /* NOCChatViewController.m in Sources */,
+				854699F2E7C328EE5260C6B16D01F391 /* NOCImageMessage.m in Sources */,
+				38674572D375B1BBDADD35CB786ECAD3 /* NOCMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE722C4180C1A8395ACA6A5C1BF6C444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889416495163984C6BCFA4CD83FF7D4A /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50014CC3D45A567069C3F4D38D73AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46751B5983AF32F269E33F0C786F71C6 /* Pods-DemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497E077A74397C8FB0487DD340110238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Demo";
+			target = 9EE2201C968E326E37399693E6AEFD2F /* Pods-Demo */;
+			targetProxy = 9FCF137A2292058885673AAF64C8A467 /* PBXContainerItemProxy */;
+		};
+		927F21D08E0548ABD4E4C73B2EFC54DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IMChatUI;
+			target = 2D2763597112742C20E6E7859B81F11D /* IMChatUI */;
+			targetProxy = CE93075D3CC087BD5E2AEA11C31539A2 /* PBXContainerItemProxy */;
+		};
+		E03E51256D664CD09F2A8872C88EFB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Demo";
+			target = 9EE2201C968E326E37399693E6AEFD2F /* Pods-Demo */;
+			targetProxy = 029B3C722A85B3BACE1FAD14AE2F61FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		23B3BBD022464245E6F8D20AAE070C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88AF06D74B7A0E82D9A4275BA1232D0 /* Pods-DemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24DAF5BA374FE36867F897749EAF5D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D966D54DFD071FFC1945DF8C702536 /* IMChatUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IMChatUI/IMChatUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IMChatUI;
+				PRODUCT_NAME = IMChatUI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7CBFCAF37ACDA3ED34A88407B063D87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0743B9CD6EC0A7A9AFA1249A5BC4A469 /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A8B3CF105162CFA1A80F6E8B6B3BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB155E0C9EC104D73058FE15863E7AF /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D997D6A2328B182E30CA592F08A6F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D966D54DFD071FFC1945DF8C702536 /* IMChatUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IMChatUI/IMChatUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IMChatUI;
+				PRODUCT_NAME = IMChatUI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA331DB9013FDF9E3ECB24796E1D9124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CF10E6B4AEF0E29E58D981A1CEDB54 /* Pods-DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7C1F238A7A19C6B37083FD152CBE354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43F529199726ED9F1508259014DF331 /* Pods-DemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4351D3CE559E346A349199810944212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7263650C3D172F46CB9ABEAE8C5262 /* Pods-DemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818E9C9D80A1D34E0C46399BD1786693 /* Build configuration list for PBXNativeTarget "Pods-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B3BBD022464245E6F8D20AAE070C2D /* Debug */,
+				F4351D3CE559E346A349199810944212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6459488343A99220CEC52E0AD845E2 /* Build configuration list for PBXNativeTarget "IMChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DAF5BA374FE36867F897749EAF5D0C /* Debug */,
+				9D997D6A2328B182E30CA592F08A6F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44368C2D2EE1A03F26BE2D256B05C3B /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBFCAF37ACDA3ED34A88407B063D87C /* Debug */,
+				8A8B3CF105162CFA1A80F6E8B6B3BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7280A9BEA1E99E984DD98E57956199 /* Build configuration list for PBXNativeTarget "Pods-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA331DB9013FDF9E3ECB24796E1D9124 /* Debug */,
+				D7C1F238A7A19C6B37083FD152CBE354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
